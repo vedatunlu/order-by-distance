@@ -1,0 +1,39 @@
+{
+    "name": "vedatunlu/order-by-distance",
+    "description": "This package helps ordering your location model by distance for given coordinates",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vedat Ünlü",
+            "email": "vedatunlu10@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Unlu\\NearestTo\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Unlu\\NearestTo\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0",
+        "phpunit/phpunit": "^10.1"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Unlu\\Nearest\\NearestPackageServiceProvider"
+            ]
+        }
+    }
+}
