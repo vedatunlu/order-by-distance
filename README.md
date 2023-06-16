@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/licence-MIT-green">
 </p>
 
-# Laravel Payment
+# Order By Distance
 
 This package provides an elegant way to sort your model collection by distance.
 
